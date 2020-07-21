@@ -3,8 +3,8 @@ This repository is a working example of a Rust+Rocket HTTP server used for askin
 # TL;DR
 
 
-  1: How do I validate fields in a POSTed Json document like the [`FromForm` trait](https://api.rocket.rs/v0.4/rocket/request/trait.FromFormValue.html) ?
-  2: How do I respond a differentiated Json document (perhaps none at all) and HTTP code based on the validation done in 1) ?
+   1: How do I validate fields in a POSTed Json document like the [`FromForm` trait](https://api.rocket.rs/v0.4/rocket/request/trait.FromFormValue.html) ?
+   2: How do I respond a differentiated Json document (perhaps none at all) and HTTP code based on the validation done in 1) ?
 
 
 # Background
