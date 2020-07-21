@@ -1,0 +1,21 @@
+[package]
+name = "hello-rocket"
+version = "0.1.0"
+authors = ["Morten W. Jørgensen <Morten@comepile.it>"]
+edition = "2018"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.12.3"
+rocket = "0.4.5"
+serde = "1.0"
+serde_json = "1.0"
+serde_derive = "1.0"
+
+
+[dependencies.rocket_contrib]
+path = "rocket_contrib/lib"
+default-features = false
+features = ["json"]
